@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/759a4bd9e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="portfolio/logooo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><h5>DEVELOPER</h5></p>
+            <h1>Hi,I'm <span>Gobi Sunitha</span><br>from pondicherry</h1>
+        </div>
+    </div>
+</div>
+<!----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="portfolio/usser.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I design and develop user-friendly websites,including optimized check-out page that increases user clicks,and subsequent customer purchases & I love what I do.
+                    Developed user interface with modern javascript framework,HTML5,and CSS,which has improved user satisfaction 50%.</p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div> 
+                <div class="tab-contents active-tab id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desinging Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App development</li>
+                        <li><span>Programming Skill</span><br>HTML,CSS,Javascript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2023-current</span><br>Internship at Quizaro</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023-current</span><br>B.E Computer Science Engineering</li>
+                        <li><span>2020</span><br>HSC in Amalorpavam.Hr.Sec.School</li>
+                        <li><span>2018</span><br>SSLC in Amalorpavam.Hr.Sec.School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------Services------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-regular fa-snowflake"></i>
+                <h2>Web Design</h2>
+                <p>Web design is to plan, create and code internet sites and web pages,
+                many of which combine text with sounds, pictures and graphics.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-squarespace"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI UX design is to create the user interface for an app, website, or other interactive media. 
+                    And also process flows or sitemap.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design is the look and feel of a mobile application including all of the visual elements that 
+                    impact how the app functions.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-----------projects---------->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-titles">My Projects</h1>
+        <div class="Projects-list">
+            <div class="Projects">
+                <img src="portfolio/socialmediaaa.jpeg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Projects">
+                <img src="portfolio/onlineshopping.jpeg">
+                <div class="layer">
+                    <h3>Onlineshopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Projects">
+                <img src="portfolio/music.jpeg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------Contact----------->
+<dic id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact@Sunithavenkat08.com</p>
+                <p><i class="fa-solid fa-phone"></i>9791518023</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="portfolio/gobisunitha.pdf.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="Contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Sunithavenkat. Made with<i class="fa-solid fa-heart"></i>Easy Tutorials</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+
+<script>
+
+       var sidemenu = document.getElementById("sidemenu");
+
+       function openmenu(){
+           sidemenu.style.right = "0";
+       }
+       function closemenu(){
+           sidemenu.style.right = "-200px";
+       }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwv_QKnX4uvA020tkPaLEdTlILIInxDR0ZP-_cyzsq1CvDSv0l5AsXQPfuKAQZzTIhd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully" 
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
